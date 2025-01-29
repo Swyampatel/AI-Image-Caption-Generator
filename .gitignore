@@ -1,0 +1,68 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependencies
+node_modules/
+.pnpm/
+.pnp.cjs
+.pnp.loader.mjs
+
+# Build files
+dist/
+build/
+
+# Tailwind & PostCSS Cache
+.postcssrc
+.tailwind-cache/
+
+# React App
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python Virtual Environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Flask Cache & Temp Files
+instance/
+uploads/
+*.sqlite3
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Ignore coverage reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Ignore IDE-specific files
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.vscode/
